@@ -54,7 +54,7 @@
 
 .header-btn{
   font-size: 1.4rem;
-  color: #555;
+  color: var(--primary-text-color);
   padding: 1rem 1.8rem;
   background-image: url(Assets/asset\ 33.svg);
   background-repeat: no-repeat;
@@ -73,8 +73,9 @@
 
 .main-nav-link:link,
 .main-nav-link:visited{
-  color: #333;
+  color:var(--primary-text-color);
   font-size: 1.6rem;
+  font-weight: 500;
 
 }
 
@@ -87,11 +88,12 @@
 .sign-in-btn:visited{
   border: 1.5px solid #777;
   border-radius: 3px;
-  color: #333;
+  color: var(--primary-text-color);
   font-weight: 700;
   padding:1.2rem 2.4rem;
   font-size: 1.4rem;
   text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -110,6 +112,7 @@
   text-align: center;
   background-color: #2294ed;
   border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -118,6 +121,61 @@
 background-color: #1d69a3;
 }
 
+/* sub-menu code */
+
+.sub-menu{
+  display: none;
+}
+
+.product-list{
+  position: relative;
+}
+
+.resource-list{
+  position: relative;
+}
+
+.sub-menu-product{
+  position: absolute;
+  margin-left: -40rem;
+  padding: 3rem;
+}
+
+.sub-menu-resources{
+  position: absolute;
+  margin-left: -2rem;
+  padding: 1.8rem 2.8rem;
+  width: 20rem;
+}
+
+
+.navigation ul li:hover .sub-menu{
+  display: flex;
+  gap: 6.4rem;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 9px;
+ 
+}
+
+.sub-menu-list{
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.4rem;
+}
+
+.sub-menu-headings{
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+}
+
+.fa-angle-down{
+  text-align: center;
+  margin-left: 0.5rem;
+  align-self: flex-end;
+}
 
 /****************************************************************/
 
