@@ -1,4 +1,4 @@
-.main-text-box{
+.main-text-box {
   padding: 3.2rem 38rem;
   margin: 0 auto;
   flex-direction: column;
@@ -7,57 +7,50 @@
   align-items: center;
 }
 
-
-.overview-primary-heading{
+.overview-primary-heading {
   line-height: 1.2;
   font-size: 4rem;
   font-weight: 500;
   text-align: center;
 }
 
-.main-para{
+.main-para {
   font-size: 2rem;
   line-height: 1.6;
   text-align: center;
 }
 
-
 /**************************************/
-  /* features-details--1 */
+/* features-details--1 */
 /**************************************/
 
-
-
-.feature-details{
-  padding:0 2.4rem;
+.feature-details {
+  padding: 0 2.4rem;
   margin: 0 auto;
 }
 
-.feature-details-container{
+.feature-details-container {
   margin: 0 auto;
   padding: 1rem 2rem 2rem;
 }
 
-
-.feature-details-img{
+.feature-details-img {
   width: 100%;
 }
 
-.feature--1{
+.feature--1 {
   justify-content: space-between;
   margin-bottom: 4.8rem;
   flex-direction: row;
   padding: 0 3.2rem;
-  
 }
 
-.feature-img-box{
+.feature-img-box {
   width: 50%;
   flex: 0 auto;
-  
 }
 
-.feature-card--dt{
+.feature-card--dt {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -66,87 +59,177 @@
   text-align: left;
 }
 
-.feature-heading--dt{
+.feature-heading--dt {
   font-size: 3rem;
   font-weight: 500;
   margin-bottom: 2.4rem;
 }
 
-.feature-para--dt{
+.feature-para--dt {
   text-align: start;
   margin-bottom: 2.4rem;
   font-size: 2rem;
   line-height: 1.6;
 }
 
-
-.row-reverse{
+.row-reverse {
   flex-direction: row-reverse;
 }
 
-
 /**************************************/
-  /* overview cta section */
+/* overview cta section */
 /**************************************/
 
-
-.overview-cta-container{
+.overview-cta-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100vw;
   margin-bottom: 9.6rem;
-
 }
 
-.left-cta{
+.left-cta {
   background-color: #183b56;
-  width: 50vw; 
-  padding: 3.2rem 6.4rem; 
+  width: 50vw;
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+  padding-left: 7.2rem;
+  padding-right: 12.2rem;
   color: #fff;
 }
 
-.overview-cta-small-heading{
+.overview-cta-small-heading {
   font-size: 1.8rem;
   font-weight: 500;
   color: #b9cde4;
   margin-bottom: 1.8rem;
 }
 
-.overview-cta-heading{
+.overview-cta-heading {
   font-weight: 500;
   font-size: 3.2rem;
   margin-bottom: 1rem;
 }
 
-.overview-cta-head-para{
+.overview-cta-head-para {
   font-size: 2rem;
   line-height: 1.8;
   color: #b9cde4;
   margin-bottom: 2.4rem;
-
 }
 
-.point-logo{
-  margin-right: 1.8rem;
+
+
+.overview-cta-point {
+  margin-bottom: 2.4rem;
+  width: 40rem;
 }
 
-.point-heading{
+.right-cta-point{
+  width: 42rem;
+}
+
+.point-logo {
+  width: 2rem;
+  height: 2.8rem;
+  padding-top: 3px;
+  text-align: center;
+}
+
+.point-heading {
   font-size: 2rem;
   font-weight: 500;
+  margin-left: 1.8rem;
 }
 
-.point-para{
-  margin-top: 2.4rem;
+.point-para {
+  margin-top: 1rem;
   font-size: 1.6rem;
+  line-height: 1.6;
+  padding-right: 3.8rem;
+  padding-left: 3.8rem;
+  color: #b9cde4;
 }
 
-
-
-.right-cta{
+.right-cta {
   background-color: #1d4564;
   width: 50vw;
-  padding: 3.2rem;
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+  padding-left: 7.2rem;
+  padding-right: 12.2rem;
   color: #fff;
 }
 
+.overview-btn {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+  background-color: #2294ed;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 3.8rem 1rem;
+
+  border-radius: 5px;
+  transition: all 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+  display: flex;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.overview-btn:hover{
+  background-color: #1d69a3;
+}
+
+
+/**************************************/
+/* overview companies section */
+/**************************************/
+
+.companies-heading-overview{
+  margin-top: 4.8rem;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #183b56;
+}
+
+.increased-gap{
+  gap: 8.2rem;
+}
+
+
+
+/**************************************/
+/* overview feauters section */
+/**************************************/
+
+.overview-features{
+  margin-bottom: 9.6rem;
+}
+
+.overview-fea-col{
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.overview-fea img{
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.overview-fea{
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30rem;
+  height: 20rem;
+  gap: 1rem;
+  
+}
+
+.fea-para{
+  text-align: center;
+  line-height: 1.4;
+  color: #577592;
+  font-size: 1.6rem;
+}
